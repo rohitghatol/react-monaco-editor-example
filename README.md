@@ -103,6 +103,54 @@ This is a example of how to use Microsoft Monaco Editor for coding Typescript fu
     ```
     
     
+    ---
+    ```
+    // types/index.js
+    import {content as modelContent} from './models';
+    import {content as lambdaContent} from './lambda';
+    import {content as ramdaContent} from './ramda';
+    
+    export const files = {
+        "models/index.d.ts": modelContent,
+        "ramda/index.d.ts": ramdaContent,
+        "lambda/index.d.ts": lambdaContent,
+    };
+
+    ```
+    ```
+    // types/models.js
+    export const content =
+    `
+    export interface Item {
+       id: String;
+       name: String;
+       value: String;
+    }
+    
+    export interface Result {
+       id: String;
+       name: String;
+       value: String;
+    }
+    `
+
+    ```
+    // types/lambda.js
+    export const content =
+    `
+    import {Item} from 'models';
+    
+    export interface Event {
+        input: Item[]
+     }
+    
+    export interface Context {
+       
+    }
+    `
+
+    ```    
+    
     
     ```
     components/AdvancedTypescriptEditor.jsx
