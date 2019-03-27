@@ -240,7 +240,7 @@ self.__precacheManifest = [
     "url": "/react-monaco-editor-example/json.worker.js"
   },
   {
-    "revision": "41e47c4905e372b51cc98ed0fb83cfa3",
+    "revision": "52185753d6c5fc8b3151ec920fdab7d3",
     "url": "/react-monaco-editor-example/index.html"
   },
   {

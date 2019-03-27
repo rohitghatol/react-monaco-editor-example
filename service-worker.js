@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-monaco-editor-example/precache-manifest.6ea615988c5fb5a77d3b877e16304922.js"
+  "/react-monaco-editor-example/precache-manifest.6c7b542678d88719059df16e28ceb5b5.js"
 );
 
 workbox.clientsClaim();
