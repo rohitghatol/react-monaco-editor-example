@@ -2,6 +2,7 @@
   "name": "react-monaco-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rohitghatol.github.io/react-monaco-editor-example",
   "dependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "4.1.0",
@@ -56,7 +57,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -118,6 +120,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "monaco-editor-webpack-plugin": "^1.7.0"
   }
 }

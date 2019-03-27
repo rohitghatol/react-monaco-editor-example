@@ -1,6 +1,10 @@
 # Microsoft Monaco Editor using react-monaco
 This is a example of how to use Microsoft Monaco Editor for coding Typescript functions using react-monaco library
 
+Demo - https://rohitghatol.github.io/react-monaco-editor-example/ 
+
+
+![App Preview](images/screenshot-001.png)
 # Setup
 
 1. Install CRA
