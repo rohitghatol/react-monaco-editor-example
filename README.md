@@ -133,6 +133,7 @@ This is a example of how to use Microsoft Monaco Editor for coding Typescript fu
        value: String;
     }
     `
+    ```
 
     ```
     // types/lambda.js
