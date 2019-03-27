@@ -4,7 +4,7 @@ This is a example of how to use Microsoft Monaco Editor for coding Typescript fu
 Demo - https://rohitghatol.github.io/react-monaco-editor-example/ 
 
 
-![App Preview](images/screenshot-001.png)
+![App Preview](/images/screenshot-001.png)
 # Setup
 
 1. Install CRA
